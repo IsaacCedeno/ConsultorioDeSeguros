@@ -1,0 +1,37 @@
+﻿@model ConsultorioDeSeguros.Models.Seguro
+
+@{
+    ViewData["Title"] = "Eliminar Seguro";
+}
+
+<h2>@ViewData["Title"]</h2>
+<hr />
+
+<div>
+    <h3>¿Estás seguro de que deseas eliminar este seguro?</h3>
+</div>
+
+<div>
+    <dl class="row" style="border: 1px solid black; border-radius: 8px; overflow: hidden; width: 30%;">
+        <div class="row" style="display: flex; width: 100%; border-bottom: 1px solid black;">
+            <dt class="col-sm-4" style="border-right: 1px solid black; padding: 10px;">Nombre</dt>
+            <dd class="col-sm-8" style="padding: 10px;">@Model.Nombre</dd>
+        </div>
+
+        <div class="row" style="display: flex; width: 100%; border-bottom: 1px solid black;">
+            <dt class="col-sm-4" style="border-right: 1px solid black; padding: 10px;">Suma Asegurada</dt>
+            <dd class="col-sm-8" style="padding: 10px;">@Model.SumaAsegurada</dd>
+        </div>
+
+        <div class="row" style="display: flex; width: 100%;">
+            <dt class="col-sm-4" style="border-right: 1px solid black; padding: 10px;">Prima</dt>
+            <dd class="col-sm-8" style="padding: 10px;">@Model.Prima</dd>
+        </div>
+    </dl>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.Id" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

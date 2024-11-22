@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ConsultorioDeSeguros.Models.Seguro>
+
+@{
+    ViewData["Title"] = "Seguros";
+}
+
+<h1>@ViewData["Title"]</h1>
+<hr />
+
+<div class="d-flex justify-content-end mb-3">
+    <form asp-action="Index" method="get" class="form-inline">
+        <div class="form-group mb-0">
+            <label for="id" class="sr-only">Buscar por ID:</label>
+            <div class="input-group">
+                <input type="number" name="id" class="form-control form-control-sm" placeholder="ID del seguro" />
+                <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary btn-sm">Buscar</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Suma Asegurada</th>
+            <th>Prima</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var seguro in Model)
+        {
+            <tr>
+                <td>@seguro.Id</td>
+                <td>@seguro.Nombre</td>
+                <td>@seguro.SumaAsegurada</td>
+                <td>@seguro.Prima</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@seguro.Id" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@seguro.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    <a asp-action="Register" class="btn btn-primary">Registrar</a>
+

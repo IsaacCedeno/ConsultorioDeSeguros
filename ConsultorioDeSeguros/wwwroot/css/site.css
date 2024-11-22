@@ -1,0 +1,87 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 15px; /* Bordes circulares para la tabla */
+    overflow: hidden; /* Para que los bordes redondeados se apliquen */
+}
+
+th, td {
+    border: 2px solid black; /* Bordes negros */
+    text-align: center; /* Centrando el texto */
+    padding: 8px; /* Espaciado interno */
+}
+
+th {
+    background-color: #f2f2f2; /* Fondo para el encabezado */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternar color de filas */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Color al pasar el mouse */
+}
+
+.btn-small {
+    font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+    padding: 0.5rem 1rem; /* Relleno reducido */
+    margin: 0.2rem; /* Margen alrededor del botón */
+    border-radius: 0.3rem; /* Bordes redondeados */
+}
+
+.form-small {
+    max-width: 250px; /* Ancho máximo del formulario más pequeño */
+    margin: 0; /* Sin margen para alinear a la izquierda */
+}
+
+    .form-small .form-group {
+        margin-bottom: 0.3rem; /* Espaciado reducido entre los elementos del formulario */
+    }
+
+    .form-small .form-control {
+        font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+        padding: 0.2rem; /* Relleno reducido */
+    }
+
+    .form-small .btn {
+        font-size: 0.8rem; /* Tamaño de fuente más pequeño para el botón */
+        padding: 0.3rem 0.5rem; /* Relleno reducido para el botón */
+    }
+
+/* Ocultar las flechas del input type number */
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+    /* Ocultar las flechas en Chrome, Safari, Edge */
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+

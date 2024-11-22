@@ -1,0 +1,34 @@
+﻿@model ConsultorioDeSeguros.Models.Asegurado
+
+@{
+    ViewData["Title"] = "Crear Asegurado";
+}
+
+<div class="d-flex justify-content-center mt-5">
+    <form asp-action="Create" method="post" class="w-40 p-5" style="background-color: #41a3ff; border-radius: 8px;">
+        <div class="form-group mb-3 text-center">
+            <h1 class="text-center text-white">@ViewData["Title"]</h1>
+        </div>
+
+        <div class="form-group mb-3 text-center">
+            <input asp-for="Cedula" class="form-control form-control-sm w-75 mx-auto" placeholder="Cédula" style="border-radius: 8px;" />
+            <span asp-validation-for="Cedula" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3 text-center">
+            <input asp-for="Nombre" class="form-control form-control-sm w-75 mx-auto" placeholder="Nombre" style="border-radius: 8px;" />
+            <span asp-validation-for="Nombre" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3 text-center">
+            <input asp-for="Telefono" class="form-control form-control-sm w-75 mx-auto" placeholder="Teléfono" style="border-radius: 8px;" />
+            <span asp-validation-for="Telefono" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3 text-center">
+            <input asp-for="Edad" class="form-control form-control-sm w-75 mx-auto" placeholder="Edad" style="border-radius: 8px;" />
+            <span asp-validation-for="Edad" class="text-danger"></span>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Crear</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
