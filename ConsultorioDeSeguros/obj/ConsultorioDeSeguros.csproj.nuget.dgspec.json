@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\i7\\source\\repos\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj": {}
+    "C:\\Users\\i7\\Desktop\\Practica GCS\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\i7\\source\\repos\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj": {
+    "C:\\Users\\i7\\Desktop\\Practica GCS\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\i7\\source\\repos\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj",
+        "projectUniqueName": "C:\\Users\\i7\\Desktop\\Practica GCS\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj",
         "projectName": "ConsultorioDeSeguros",
-        "projectPath": "C:\\Users\\i7\\source\\repos\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj",
+        "projectPath": "C:\\Users\\i7\\Desktop\\Practica GCS\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\ConsultorioDeSeguros.csproj",
         "packagesPath": "C:\\Users\\i7\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\i7\\source\\repos\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\obj\\",
+        "outputPath": "C:\\Users\\i7\\Desktop\\Practica GCS\\ConsultorioDeSeguros\\ConsultorioDeSeguros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,4 +10,6 @@ namespace ConsultorioDeSeguros.Persistences.Interfaces
         Task<IEnumerable<Seguro>> GetSegurosByAseguradoId(int aseguradoId);
         Task AsignarSegurosPorEdad(Asegurado asegurado);
     }
+
+    //Realizamos un cambio en el sistema
 }

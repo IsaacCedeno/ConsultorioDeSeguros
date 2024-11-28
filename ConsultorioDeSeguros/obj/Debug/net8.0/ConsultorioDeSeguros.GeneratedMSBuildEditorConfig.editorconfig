@@ -9,75 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsultorioDeSeguros
 build_property.RootNamespace = ConsultorioDeSeguros
-build_property.ProjectDir = C:\Users\i7\source\repos\ConsultorioDeSeguros\ConsultorioDeSeguros\
+build_property.ProjectDir = C:\Users\i7\Desktop\Practica GCS\ConsultorioDeSeguros\ConsultorioDeSeguros\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\i7\source\repos\ConsultorioDeSeguros\ConsultorioDeSeguros
+build_property.MSBuildProjectDirectory = C:\Users\i7\Desktop\Practica GCS\ConsultorioDeSeguros\ConsultorioDeSeguros
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Create.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNlZ3VyYWRvXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Delete.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNlZ3VyYWRvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Details.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNlZ3VyYWRvXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Edit.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNlZ3VyYWRvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Index.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Asegurado/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNlZ3VyYWRvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Home/Index.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Home/Privacy.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Delete.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJvXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Edit.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJvXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Index.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Register.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Seguro/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VndXJvXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/Error.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/_ViewImports.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/_ViewStart.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/i7/source/repos/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/_Layout.cshtml]
+[C:/Users/i7/Desktop/Practica GCS/ConsultorioDeSeguros/ConsultorioDeSeguros/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pp13vvnnxk
